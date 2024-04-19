@@ -55,3 +55,22 @@ Inicio
 5. Mostrar el mensaje: "¡Felicidades! ¡Adivinaste el número secreto en {contador} intentos!"
 6. Fin del juego
 ```
+
+# Diagramas de flujo
+Los diagramas de flujo son una herramienta visual utilizada en programación y en muchos otros campos para representar la secuencia de pasos necesarios para resolver un problema o llevar a cabo un proceso. Aquí tienes algunos conceptos generales sobre los diagramas de flujo:
+
+* Símbolos: Los diagramas de flujo utilizan una variedad de símbolos estándar para representar diferentes tipos de acciones. Algunos de los símbolos más comunes incluyen:
+Rectángulos: Se utilizan para representar pasos o acciones.
+* Diamantes: Se utilizan para representar decisiones o condiciones.
+* Flechas: Se utilizan para conectar los símbolos y mostrar la dirección del flujo.
+* Conexiones: Los símbolos se conectan con flechas para indicar la secuencia de pasos. Las flechas muestran la dirección del flujo, es decir, el orden en que se deben ejecutar los pasos.
+* Inicio y fin: Todo diagrama de flujo comienza con un símbolo de inicio y termina con un símbolo de fin. Estos símbolos indican dónde comienza y termina el proceso representado en el diagrama.
+* Decisión: Los diamantes se utilizan para representar decisiones o condiciones en el proceso. Dependiendo del resultado de la decisión, el flujo del diagrama puede seguir diferentes caminos.
+
+
+# buenas practicas para desarrollar una buena lógica de programación.
+
+1. Comprender lo que están solicitando y que resultado se desea
+2. Desarrollar el algoritmo escrito en una hoja o md en base al punto 1
+3. Elaborar el diagrama de flujo del algoritmo en base al punto 2
+4. Desarrollar el codigo en base al punto 3,2 y 1.
