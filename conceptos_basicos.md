@@ -27,3 +27,31 @@ Inicio
 4. Mostrar el resultado de la suma al usuario.
 5. Fin
 
+## algoritmo para un juego de adivinanza
+
+Inicio
+1. Generar aleatoriamente el numero secreto en el rango del 1 al 100
+2. Pedir al jugador adivine el numero secreto, ingresando un numero
+3. Tomar el numero del paso 2 y usarlo en la estructura de control
+4. Evaluar si el numero ingresado es igual al numero secreto, si es verdadero, terminar el juego y pasar al paso 8, si no es igual entonces, evaluar si el numero ingresado es menor al numero secreto, si es verdadero, ir al paso 6 y regresar al paso 2, si es falso, entonces ir al paso 7 y regresar al paso 2
+6. Mostrar el mensaje : Tu numero es menor al numero secreto
+7. Mostrar el mensaje: Tu numero es mayor al numero secreto
+8. Imprimir el mensaje: Felicidades, has adivinado el numero secreto
+9. Fin del juego
+
+Algoritmo optimizado:
+```yaml
+Inicio
+
+1. Generar aleatoriamente el número secreto en el rango del 1 al 100.
+2. Establecer el contador de intentos en 0.
+3. Repetir mientras el número ingresado por el jugador no sea igual al número secreto:
+   4.1. Incrementar el contador de intentos en 1.
+   4.2. Pedir al jugador que adivine el número secreto, ingresando un número.
+   4.3. Si el número ingresado es mayor que el número secreto:
+        4.3.1. Mostrar el mensaje: "El número es menor al número ingresado. Intenta de nuevo."
+   4.4. Si el número ingresado es menor que el número secreto:
+        4.4.1. Mostrar el mensaje: "El número es mayor al número ingresado. Intenta de nuevo."
+5. Mostrar el mensaje: "¡Felicidades! ¡Adivinaste el número secreto en {contador} intentos!"
+6. Fin del juego
+```
